@@ -26,7 +26,7 @@ const PORT = process.env.PORT || 8080;
 
 //run listen
 app.listen(PORT, () => {
-    console.log(`Listening to port on ${PORT}`.rainbow.bgWhite);
+    console.log(`  Listening to port ${PORT}  `.rainbow.bgWhite);
 });
 
 //rest api
